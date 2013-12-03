@@ -6,6 +6,8 @@ AC_CONFIG_SRCDIR([cpu-miner.c])
 AM_INIT_AUTOMAKE([gnu])
 AC_CONFIG_HEADERS([cpuminer-config.h])
 
+m4_include([libcurl.m4])
+
 dnl Make sure anyone changing configure.ac/Makefile.am has a clue
 AM_MAINTAINER_MODE
 
